@@ -21,12 +21,30 @@
     <ClInclude Include="GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Dweller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Outfit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Vec2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dweller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Outfit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
