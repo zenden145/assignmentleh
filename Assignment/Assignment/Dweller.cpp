@@ -21,3 +21,4 @@ const int Dweller::getCurrentRadDamage(){
 const int Dweller::getAttackDmg(){
 
 }
+
