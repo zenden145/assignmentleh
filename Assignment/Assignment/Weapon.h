@@ -1,5 +1,7 @@
 #pragma once
-class Weapon : public Dweller
+#include "Dweller.h"
+#include "Item.h"
+class Weapon : public Item
 {
 public:
 	Weapon();
@@ -8,8 +10,9 @@ public:
 	//getter
 	const int getAttackDmg();
 
+
+	Weapon(const string& wepName, const int& durability_, const int& AtkDmg);
 private:
 	const int kAttackDmg;
-	Weapon(const string&, const int&, const int&);
 };
 

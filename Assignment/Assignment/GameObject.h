@@ -8,8 +8,10 @@ class GameObject
 public:
 	GameObject();
 	~GameObject();
+	virtual string getName();
+	virtual int getcount();
 protected:
-	GameObject(const string&);
+	GameObject(const string& kName);
 
 
 private:
