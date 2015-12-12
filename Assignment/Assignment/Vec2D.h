@@ -1,5 +1,5 @@
 #pragma once
-class Vec2D
+struct Vec2D
 {
 public:
 	Vec2D();

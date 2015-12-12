@@ -1,4 +1,5 @@
 #include "Outfit.h"
+#include "Item.h"
 
 Outfit::Outfit() :
 kSPECIAL(0){}

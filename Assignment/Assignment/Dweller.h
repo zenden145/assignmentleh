@@ -25,14 +25,14 @@ public:
 	void receiveRadDamage(const int& health_);
 	void receiveEquipmentDamage(const int& durability_);
 
-	void addStimpak(const int& stimpak_);
-	void addRadAway(const int& radaway_);
+	void addStimpak(const int& maxStimpak);
+	void addRadAway(const int& maxRadaway);
 
 	void useStimpak();
 	void useRadAway();
 	
-	virtual Outfit * assignOutfit(Outfit * Outfit);
-	virtual Weapon * assignWeapon(Weapon * weapon);
+	virtual Outfit * assignOutfit(Outfit * newOutfit);
+	virtual Weapon * assignWeapon(Weapon * newWep);
 	bool isDead();
 protected:
 
@@ -45,6 +45,7 @@ private:
 	int radaway_;
 	Outfit * outfit_;
 	Weapon * weapon_;
+	Vec2D position_;
 	
 };
 

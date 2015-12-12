@@ -8,8 +8,8 @@ public:
 	~Item();
 	Item(const string& kName, const int& durability_);
 	const int getDurability();
-protected:
 	virtual void receiveDamage(const int &durability_) = 0;
+protected:
 	int durability_;
 	const string name;
 private:

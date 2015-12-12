@@ -9,7 +9,7 @@ public:
 
 	//getter
 	const int getAttackDmg();
-
+	void receiveDamage(const int& ItemDurability);
 
 	Weapon(const string& wepName, const int& durability_, const int& AtkDmg);
 private:
